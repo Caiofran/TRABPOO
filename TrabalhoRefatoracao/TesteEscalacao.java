@@ -6,7 +6,7 @@ import javax.swing.JOptionPane;
 
 public class TesteEscalacao {
     public static void main(String[] args) {
-        
+
         Time time = new Time();
         Escalacao escalacao = new Escalacao();
     
@@ -40,9 +40,16 @@ public class TesteEscalacao {
         System.out.println("Informe o nome do jogador 5: ");
         jog5.setNome(scanner.nextLine());
         jogadores.add(jog5);
+
+    	System.out.print("Digite o dia do jogo: ");
+    	int dia = scanner.nextInt();
+    	System.out.print("Digite o mês do jogo: ");
+    	int mes = scanner.nextInt();
+        System.out.print("Digite o ano do jogo: ");
+    	int ano = scanner.nextInt();
     
         System.out.println(escalacao.getImprimir(jogadores));
-    
+        System.out.println("Data do jogo: "+dia+"/"+mes+"/"+ano);
         System.out.println("Time: " + time.getNome());
         System.out.println("---------------");
     
