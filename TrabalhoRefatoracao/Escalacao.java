@@ -1,5 +1,7 @@
 package TrabalhoRefatoracao;
 
+// Alunos: Caio França e Murilo Ferreira   
+
 import java.util.ArrayList;
 
 public class Escalacao {

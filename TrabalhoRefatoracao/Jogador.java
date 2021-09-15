@@ -1,5 +1,7 @@
 package TrabalhoRefatoracao;
 
+// Alunos: Caio França e Murilo Ferreira   
+
 public class Jogador {
 
     private String nome;

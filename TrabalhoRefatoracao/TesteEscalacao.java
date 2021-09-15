@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 
+// Alunos: Caio França e Murilo Ferreira    
+
 public class TesteEscalacao {
     public static void main(String[] args) {
 
